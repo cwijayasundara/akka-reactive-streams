@@ -18,6 +18,7 @@ case class Tweet(author: Author, timestamp: Long, body: String) {
 
 final object EmptyTweet extends Tweet(Author(""), 0L, "")
 
+// add your own Twitter API keys here
 object CretentialsUtils {
   val appKey: String = ""
   val appSecret: String = ""
